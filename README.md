@@ -10,7 +10,7 @@ Finally, it needs to be executed on the Safe
 Since I see the transaction was proposed successfully (you have a transaction hash), you now need to:
 
 Go to the Gnosis Safe web interface (https://app.safe.global)
-Connect to PulseChain network
+Connect to Ethereum network, PulseChain does not work with teh Safe web interface
 Open your Safe
 Look for the pending transaction
 Confirm and execute it from there
