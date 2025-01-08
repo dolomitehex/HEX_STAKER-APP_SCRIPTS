@@ -1,7 +1,8 @@
 const ethers = require("ethers");
 
 // Configuration
-const PULSECHAIN_RPC_URL = "https://rpc.pulsechain.com";
+// const PULSECHAIN_RPC_URL = "https://rpc.pulsechain.com";
+const PULSECHAIN_RPC_URL = "https://scan.mypinata.cloud/ipfs/bafybeih3olry3is4e4lzm7rus5l3h6zrphcal5a7ayfkhzm5oivjro2cp4/#/";
 const provider = new ethers.providers.StaticJsonRpcProvider(PULSECHAIN_RPC_URL);
 
 // Your configuration
