@@ -1,3 +1,5 @@
+=======================================================================================
+
 admin@admins-iMac HEX_STAKER-APP_SCRIPTS % cd END_STAKE 
 admin@admins-iMac END_STAKE % npm install
 npm warn deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
@@ -27,5 +29,26 @@ To address all issues (including breaking changes), run:
   npm audit fix --force
 
 Run `npm audit` for details.
-admin@admins-iMac END_STAKE % 
 
+admin@admins-iMac END_STAKE % 
+=======================================================================================
+
+admin@admins-iMac END_STAKE % node end-hex-stake.js
+Connected to Safe: 0x##############################################
+Transaction created: EthSafeTransaction {
+  signatures: Map(0) {},
+  data: {
+    to: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39',
+    value: '0',
+    data: '0x89e7f5510000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000009aa96',
+    operation: 0,
+    baseGas: 0,
+    gasPrice: 0,
+    gasToken: '0x0000000000000000000000000000000000000000',
+    refundReceiver: '0x0000000000000000000000000000000000000000',
+    nonce: 31,
+    safeTxGas: 0
+  }
+}
+Transaction signed
+...
